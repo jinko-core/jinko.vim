@@ -12,7 +12,7 @@ syntax keyword jinkoRepeat for in while loop
 syntax keyword jinkoTypeDef type
 syntax keyword jinkoStatement func ext test mock mut
 syntax keyword jinkoBuiltInType int string float
-syntax keyword jinkoBuiltInFn dump just
+syntax keyword jinkoBuiltInFn dump just incl
 syntax keyword jinkoOperator = + - * / \| & ==
 syntax match jinkoIntegerLiteral '[0-9]\+'
 syntax match jinkoEscapeSequence '\\[\\nt"]' contained
