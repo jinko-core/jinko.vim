@@ -15,6 +15,7 @@ syntax keyword jinkoBuiltInFn dump just incl
 syntax match jinkoOperator display "\%(+\|-\|/\|*\|=\|\^\|&\||\|!\|>\|<\|\[\|]\|%\)=\?"
 syntax match jinkoIntegerLiteral '[0-9]\+'
 syntax match jinkoCustomType '[A-Z][a-zA-Z0-9_]\+'
+syntax match jinkoGenericType '[A-Z]'
 syntax match jinkoEscapeSequence '\\[\\nt"]' contained
 syntax region jinkoStringLiteral oneline start='"' skip='\\"' end='"' end='$' contains=jinkoEscapeSequence
 
@@ -30,5 +31,6 @@ hi link jinkoBuiltInType Type
 hi link jinkoBuiltInFn Function
 hi link jinkoIntegerLiteral Number
 hi link jinkoCustomType Function
+hi link jinkoGenericType Type
 hi link jinkoStringLiteral String
 hi link jinkoEscapeSequence SpecialChar
