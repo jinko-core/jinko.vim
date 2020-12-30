@@ -14,6 +14,7 @@ syntax keyword jinkoStatement func ext test mock mut
 syntax keyword jinkoBuiltInType int string float
 syntax keyword jinkoBuiltInFn dump just incl
 syntax keyword jinkoOperator = + - * / \| & ==
+syntax keyword jinkoBool true false
 syntax match jinkoIntegerLiteral '[0-9]\+'
 syntax match jinkoEscapeSequence '\\[\\nt"]' contained
 syntax region jinkoStringLiteral oneline start='"' skip='\\"' end='"' end='$' contains=jinkoEscapeSequence
@@ -30,5 +31,6 @@ hi link jinkoOperator Operator
 hi link jinkoBuiltInType Type
 hi link jinkoBuiltInFn Function
 hi link jinkoIntegerLiteral Number
+hi link jinkoBool Bool
 hi link jinkoStringLiteral String
 hi link jinkoEscapeSequence SpecialChar
