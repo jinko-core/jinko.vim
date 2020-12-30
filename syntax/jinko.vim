@@ -9,7 +9,7 @@ syntax keyword jinkoRepeat for in while loop
 syntax keyword jinkoStatement func ext test mock mut return type
 syntax keyword jinkoBuiltInType int string float char bool
 syntax keyword jinkoBuiltInFn dump just incl
-syntax match jinkoGenericOperator display "\%(>\|<\)=\?"
+syntax match jinkoOperator display "\%(+\|-\|/\|*\|=\|\^\|&\||\|!\|>\|<\|\[\|]\|%\)=\?"
 syntax keyword jinkoBool true false
 syntax match jinkoIntegerLiteral '[0-9]\+'
 syntax match jinkoCustomType '[A-Z][a-zA-Z0-9_]\+'
@@ -23,7 +23,7 @@ hi link jinkoConditional Conditional
 hi link jinkoRepeat Repeat
 hi link jinkoStatement Statement
 hi link jinkoStructure Structure
-hi link jinkoGenericOperator Operator
+hi link jinkoOperator Operator
 hi link jinkoBuiltInType Type
 hi link jinkoBuiltInFn Function
 hi link jinkoIntegerLiteral Number
