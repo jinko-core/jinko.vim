@@ -8,7 +8,7 @@ syntax keyword jinkoConditional if else
 syntax keyword jinkoRepeat for in while loop
 syntax keyword jinkoStatement func ext test mock mut return type
 syntax keyword jinkoBuiltInType int string float char bool
-syntax keyword jinkoBuiltInFn dump just incl
+syntax match jinkoBuiltInFn "@[a-z_]\+(.*)"
 syntax keyword jinkoCommentOp FIXME TODO XXX
 syntax match jinkoCommentWarn "@warn"
 syntax match jinkoCommentDoc "@\(param\|return\)"
