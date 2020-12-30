@@ -31,6 +31,6 @@ hi link jinkoOperator Operator
 hi link jinkoBuiltInType Type
 hi link jinkoBuiltInFn Function
 hi link jinkoIntegerLiteral Number
-hi link jinkoBool Bool
+hi link jinkoBool Boolean
 hi link jinkoStringLiteral String
 hi link jinkoEscapeSequence SpecialChar
