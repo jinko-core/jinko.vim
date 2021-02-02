@@ -1,4 +1,5 @@
 " Language: Jinko
+" Maintainer: CohenArthur <arthur.cohen@epita.fr>
 
 if exists("b:current_syntax")
     finish
