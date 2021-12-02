@@ -9,10 +9,10 @@ Jinko Syntax Highlighting for Vim
 Add the following to your .vimrc:
 
 ```vim
-Plug 'cohenarthur/jinko.vim'
+Plug 'jinko-core/jinko.vim'
 ```
 
 ### `Vundle`
 ```vim
-Plugin 'cohenarthur/jinko.vim'
+Plugin 'jinko-core/jinko.vim'
 ```
